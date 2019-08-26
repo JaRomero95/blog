@@ -1,0 +1,30 @@
+---
+---
+
+@import "minima";
+
+footer.site-footer {
+  padding: 0.9rem 0;
+  text-align: center;
+  font-size: 0.8em;
+
+  p {
+    margin-bottom: 0.3rem;
+  }
+}
+
+.post-item {
+  h3 {
+    margin-bottom: 0;
+  }
+}
+
+.post-tag {
+  &:after {
+    content: ',';
+  }
+
+  &:last-child:after {
+    content: '';
+  }
+}

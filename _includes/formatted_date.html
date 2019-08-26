@@ -1,0 +1,10 @@
+{% assign month_number = include.date | date: "%_m" | minus: 1 %}
+{% assign month = site.data.lang[site.lang].months[month_number] %}
+{% assign day = include.date | date: "%e" %}
+{% assign year = include.date | date: "%Y" %}
+
+{{
+  site.data.lang[site.lang].general.date | replace: "[day]", day
+                                         | replace: "[month]", month
+                                         | replace: "[year]", year
+}}

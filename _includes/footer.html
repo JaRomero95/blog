@@ -1,0 +1,23 @@
+<footer class="site-footer h-card">
+  <p>
+    <a href="https://www.twitter.com/{{ site.twitter_username }}" target="_blank">
+      <svg class="svg-icon">
+        <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use>
+      </svg>
+      {{ site.twitter_username }}
+    </a>
+  </p>
+
+  <p>
+    <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
+      <svg class="svg-icon">
+        <use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use>
+      </svg>
+      {{ site.author }}
+    </a>
+  </p>
+
+  <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+
+  <p>{{ site.title }} &copy; {{ "now" | date: "%Y" }}</p>
+</footer>
