@@ -9,7 +9,7 @@ Jekyll nos permite escribir nuestros posts usando markdown, personalizar nuestra
 
 Aunque así expuesto parece el típico CMS, no tiene nada que ver con otras herramientas similares con enormes paneles de administración, bases de datos o editores visuales.
 
-Esta herramienta usa Ruby para construir ficheros estáticos a partir de nuestra plantilla y el contenido de nuestros posts, por lo que el resultado final es ligero y podemos subirlo a cualquier hosting sin preocuparnos de bases de datos u otros servicios.
+Esta herramienta usa Ruby para construir ficheros estáticos a partir de nuestra plantilla y el contenido de nuestros posts, por lo que el resultado final una vez generado es ligero y podemos subirlo a cualquier hosting sin preocuparnos de bases de datos u otros servicios.
 
 Es más, puedes desplegar tu blog de manera cómoda y gratuita con GitHub Pages, porque no solo es que sean compatibles, es que la propia plataforma de [GitHub Pages funciona haciendo uso de Jekyll](https://jekyllrb.com/docs/github-pages/).
 
@@ -26,6 +26,6 @@ Yo ya he elegido Jekyll para mi blog, y te cuento algunas de las ventajas que me
 
 Si te animas a probarlo, no necesitas mucho. Instala Ruby en tu equipo y las gemas necesarias para crear tu proyecto y poder visualizarlo antes de subirlo. Modifica el título del sitio, la descripción, y escribe algún post. Por último crea un repositorio en tu cuenta de GitHub, sube tu proyecto y [configura GitHub Pages](https://jekyllrb.com/docs/github-pages/).
 
-No te asustes si nunca has tocado Ruby, no tendrás que tocar ni una sola línea de código Ruby para crear tu blog, escribir tus posts o personalizar tu plantilla. Si de todas formas te sigue pareciendo engorroso, tienes a tu disposición [Jekyll Now](https://github.com/barryclark/jekyll-now) que te permite crear tu blog sin salir de GitHub.
+No te asustes si nunca has programado en Ruby, no tendrás que tocar ni una sola línea de código Ruby para crear tu blog, escribir tus posts o personalizar tu plantilla. Si de todas formas te sigue pareciendo engorroso, tienes a tu disposición [Jekyll Now](https://github.com/barryclark/jekyll-now) que te permite crear tu blog sin salir de GitHub.
 
 No te cuento más sobre Jekyll, prefiero que veas la información completa y actualizada en su [página oficial](https://jekyllrb.com/docs/). ¡Échale un vistazo y empieza a jugar!

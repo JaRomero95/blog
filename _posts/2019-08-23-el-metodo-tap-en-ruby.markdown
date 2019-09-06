@@ -22,7 +22,7 @@ class Hobbit
   end
 
   def eat
-    puts "#{name} se zampa otro desayuno."
+    puts "#{name} se zampa un pan de lembas entero."
   end
 
   def smoke
@@ -46,7 +46,7 @@ No está mal, pero estaría mejor si pudiéramos llamar a ambos métodos seguido
 class Hobbit
   # ...
   def eat
-    puts "#{name} se zampa otro desayuno."
+    puts "#{name} se zampa un pan de lembas entero."
     self
   end
 
@@ -73,7 +73,7 @@ class Hobbit
   # ...
   def eat
     tap do |hobbit|
-      puts "#{hobbit.name} se zampa otro desayuno."
+      puts "#{hobbit.name} se zampa un pan de lembas entero."
     end
   end
 
@@ -86,9 +86,9 @@ class Hobbit
 end
 {% endhighlight %}
 
-Y ahora sí, hemos mantenido la posibilidad de hacer *method chaining* pero con un toque más de elegancia.
+Y ahora sí, hemos mantenido la posibilidad de hacer *method chaining* pero con un poco más de azúcar sintáctico.
 
-Es cierto que el ejemplo es demasiado simple para ver la utilidad real de este método, ya que era incluso más corto de la forma anterior, y además ni siquiera necesitamos usar la variable que recibe el bloque, así que mejor veamos uno algo más complejo:
+Es cierto que el ejemplo es demasiado simple para ver la utilidad real de este método, ya que era incluso más corto de la forma anterior, y además ni siquiera necesitamos hacer uso de la variable que recibe el bloque, así que mejor veamos uno un poco más complejo:
 
 {% highlight ruby %}
 ring_bearer = Hobbit.new('Frodo').tap do |hobbit|
