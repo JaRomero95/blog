@@ -60,19 +60,7 @@ Las situaciones en las que Vue no es capaz de detectar cambios son las siguiente
 - Establecer directamente un elemento de un array en un índice concreto
 - Modificar la longitud de un array
 
-## Métodos de Array reemplazados por Vue
-
-Vue sobrescribe algunos métodos del objeto `Array` para poder escuchar los cambios que se produzcan haciendo uso de ellos.
-
-Esto ocurre de manera totalmente transparente y nos permite utilizar métodos de estos objetos sin preocuparnos por la reactividad. Los siguientes métodos son modificados por Vue:
-
-- *push*
-- *pop*
-- *shift*
-- *unshift*
-- *splice*
-- *sort*
-- *reverse*
+> Vue sobrescribe métodos del objeto `Array` ya que de otro modo no podría detectar mutaciones realizadas por ellos. Los métodos que modifica Vue para que puedas usarlos sin preocuparte por la reactividad son `push`, `pop`, `shift`, `unshift`, `splice`, `sort` y `reverse`
 
 ## Vue.set
 
