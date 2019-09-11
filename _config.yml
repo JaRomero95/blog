@@ -36,7 +36,6 @@ plugins:
   - jekyll-feed
 
 lang: es
-header_pages: [""]
 date_format: "%e-%m-%Y"
 # Exclude from processing.
 # The following items will not be processed, by default.
