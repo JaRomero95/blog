@@ -34,6 +34,7 @@ linkedin_username: juan-antonio-romero-molero-534805117
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 lang: es
 date_format: "%e-%m-%Y"

@@ -251,6 +251,7 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-feed
+  jekyll-sitemap
   jekyll-target-blank
   minima
   tzinfo (~> 1.2)
