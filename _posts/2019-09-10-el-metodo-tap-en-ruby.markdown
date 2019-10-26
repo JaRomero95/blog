@@ -2,6 +2,7 @@
 layout: post
 title:  "El método `tap` en Ruby"
 tags: [ruby, clean code]
+description: "Aprende a utilizar el método `tap` en Ruby: simple, útil y elegante."
 ---
 El método `tap` de Ruby es tan simple como eficaz, aunque no muchos hacen uso de él.
 
