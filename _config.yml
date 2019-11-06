@@ -38,6 +38,9 @@ plugins:
 
 lang: es
 date_format: "%e-%m-%Y"
+
+google_analytics: UA-85242334-2
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
