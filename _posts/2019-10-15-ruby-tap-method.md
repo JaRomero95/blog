@@ -4,6 +4,7 @@ author: Juan Antonio Romero Molero
 date: 2019-09-10 19:00:00 +0200
 categories: [Backend]
 tags: [ruby, clean code]
+description: "Learn how to use the tap method in Ruby: simple, useful and elegant"
 ---
 
 ## Introduction

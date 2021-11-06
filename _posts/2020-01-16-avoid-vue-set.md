@@ -4,6 +4,7 @@ author: Juan Antonio Romero Molero
 date: 2020-01-16 19:00:00 +0200
 categories: [Frontend]
 tags: [javascript, vue, immutability]
+description: "Learn about the alternatives to Vue.set and why you should choose them"
 ---
 
 ## Introduction
