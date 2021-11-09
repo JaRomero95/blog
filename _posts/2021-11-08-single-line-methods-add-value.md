@@ -120,7 +120,7 @@ export default {
   }
 
   methods() {
-    onFilter() {
+    async onFilter() {
       this.users = await UsersService.index(this.params);
     }
   }
@@ -134,7 +134,7 @@ export default {
 
   // more stuff...
 
-  async created() {
+  created() {
     this.getUsers();
   }
 
@@ -142,7 +142,7 @@ export default {
     onFilter() {
       this.getUsers();
     },
-    getUsers() {
+    async getUsers() {
       this.users = await UsersService.index(this.params);
     }
   }
